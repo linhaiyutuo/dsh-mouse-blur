@@ -4,6 +4,15 @@
   "description": "鼠标静默时 DSH 背景模糊归零，移动或点击时按可调百分比模糊；适配 dsh-cool-theme 0.9/0.10（图片和视频背景），设置里可调活动模糊度、过渡时间和静默时长。",
   "type": "module",
   "license": "MIT",
+  "author": "linhaiyutuo",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/linhaiyutuo/dsh-mouse-blur.git"
+  },
+  "homepage": "https://github.com/linhaiyutuo/dsh-mouse-blur#readme",
+  "bugs": {
+    "url": "https://github.com/linhaiyutuo/dsh-mouse-blur/issues"
+  },
   "keywords": [
     "dsh",
     "dsh-plugin",

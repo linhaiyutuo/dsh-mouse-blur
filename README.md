@@ -39,6 +39,14 @@
 dsh plugin --profile desktop add dsh-mouse-blur
 ```
 
+## 从插件市场安装
+
+插件仓库：<https://github.com/linhaiyutuo/dsh-mouse-blur>（GitHub 话题 `dsh-plugin`）
+
+在 DSH 的**插件市场**里搜 `dsh-mouse-blur` 或 `mouse-blur`，点安装即可。
+
+> 市场索引每天抓一次 GitHub 话题 `dsh-plugin`，刚建的仓库要等一次同步（约一天）才会出现。急着用就走上面的 npm，或者下面的 tgz。
+
 ## 在另一台 DSH 上安装（tgz）
 
 1. 把 `dsh-mouse-blur-0.3.0.tgz` 拷到目标机器。
