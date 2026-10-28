@@ -1,0 +1,41 @@
+{
+  "name": "dsh-mouse-blur",
+  "version": "0.3.0",
+  "description": "鼠标静默时 DSH 背景模糊归零，移动或点击时按可调百分比模糊；适配 dsh-cool-theme 0.9/0.10（图片和视频背景），设置里可调活动模糊度、过渡时间和静默时长。",
+  "type": "module",
+  "license": "MIT",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "background",
+    "blur",
+    "mouse",
+    "idle",
+    "cool-theme"
+  ],
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": []
+    }
+  },
+  "engines": {
+    "node": ">=22.13.0"
+  }
+}

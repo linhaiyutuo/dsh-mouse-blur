@@ -1,0 +1,5 @@
+# dsh-mouse-blur bundle patch: mount the host half (a no-op) so the
+# package also contributes its browser client bundle.
+- insert:
+    - id: dsh-mouse-blur
+      name: dsh-mouse-blur
